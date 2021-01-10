@@ -38,5 +38,6 @@ header, footer {
     }
 
     .middle {
-        padding-left: 50x;
+        margin: 1.25rem auto;
+        max-width: 760px;
      }
