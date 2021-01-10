@@ -37,7 +37,11 @@ header, footer {
         border-radius: 15px;
     }
 
+    span {font-weight: 700;}
+
     .middle {
         margin: 1.25rem auto;
         max-width: 760px;
      }
+
+     #currentdate {color: rgba (50, 50, 250, 1);}
