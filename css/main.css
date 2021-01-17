@@ -13,7 +13,8 @@ header, footer {
         line-height: 1.5;
         background-color:darkgreen;
         color: white;
-        font-family: 'verdana', sans-serif; 
+        /*font-family: 'verdana', sans-serif;*/
+        font-family: 'Roboto', sans-serif;
         font-weight: 600;
         text-align: center;
         padding: 1.5rem;
@@ -35,6 +36,7 @@ header, footer {
         text-align: center;
         padding: 1.5rem;
         border-radius: 15px;
+        font-family: 'Roboto', sans-serif;
     }
 
     span {font-weight: 700;}
@@ -42,6 +44,7 @@ header, footer {
     .middle {
         margin: 1.25rem auto;
         max-width: 760px;
+        font-family: 'Montserrat', sans-serif;
      }
 
      #currentdate {color: rgba (50, 50, 250, 1);}

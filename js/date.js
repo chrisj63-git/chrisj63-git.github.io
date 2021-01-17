@@ -23,10 +23,20 @@ let months = [
     "December"
 ];
 
-let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let year = d.getFullYear();
-let fulldate =  dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+let d = new Date(document.lastModified);
+fulldate = formatDate(d);
 
-document.getElementById("currentdate").textContent = fulldate;
+document.getElementById("lastmoddate").textContent = fulldate;
+
+let c = new Date().getFullYear()
+document.getElementById("copydate").textContent = c;
+
+function formatDate (d) {
+    
+    let dayName = daynames[d.getDay()];
+    let monthName = months[d.getMonth()];
+    let year = d.getFullYear();
+    let fulldate =  dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+
+    return fulldate;
+}
