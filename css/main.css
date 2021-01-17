@@ -18,16 +18,17 @@ header, footer {
         font-weight: 600;
         text-align: center;
         padding: 1.5rem;
-        border-radius: 15px;
     }
 
     img {
-        float: right;
         margin: 10px;
         border: 1px solid black;
         width: 200px;
         height: 200px;
         border-radius: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     footer {
@@ -35,11 +36,16 @@ header, footer {
         color: white;
         text-align: center;
         padding: 1.5rem;
-        border-radius: 15px;
         font-family: 'Roboto', sans-serif;
+        font-size: small;
     }
 
     span {font-weight: 700;}
+
+    h1 {
+        text-align: center;
+        font-size: larger;
+    }
 
     .middle {
         margin: 1.25rem auto;
@@ -47,8 +53,8 @@ header, footer {
         font-family: 'Montserrat', sans-serif;
      }
 
-     #lessonsnav {
-         background-color: lightgreen;
+     #footerlink {
+         background-color: white;
      }
 
     /* #currentdate {
