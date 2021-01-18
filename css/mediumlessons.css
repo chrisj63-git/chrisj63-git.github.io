@@ -1,56 +1,47 @@
 @media only screen and (min-width: 36em) {
 
+    #gridville {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
     
+    .right {
+        grid-column: span 2;
+     }
+    
+    
+    /*section {
+            grid-template-columns: 1fr 1fr;
+        }
+    
+    section div:nth-child(2) {
+            display: block;
+        }
+    
+    main section:nth-child(3) {
+            grid-column: span 2;
+    */
+
     header, footer {
         border-radius: 15px;
-        font-size: 32px;
-    }
-
-    footer {
-        font-size: 18px;
-    }
-
-}
-
-
-
-body {
-    font-size: 18px;
-    line-height: 1.5;
-    background-color: lightseagreen;
-}
-
-header, footer {
-    margin: 1.25rem auto;
-    max-width: 760px;
     }
 
     header {
-        font-size: 32px;
+        font-size: 100%;
         line-height: 1.5;
-        background-color:darkgreen;
-        color: white;
-        /*font-family: 'verdana', sans-serif;*/
-        font-family: 'Roboto', sans-serif;
-        font-weight: 600;
-        text-align: center;
-        padding: 1.5rem;
         border-radius: 15px;
     }
     
     footer {
-        background-color:darkgreen;
-        color: white;
-        text-align: center;
         padding: 1.5rem;
         border-radius: 15px;
-        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
     }
 
-    span {font-weight: 700;}
-
-    .middle, .left, .right {
-        margin: 1.25rem auto;
-        max-width: 760px;
-        font-family: 'Montserrat', sans-serif;
+    .top {
+        border-radius: 15px;
      }
+
+    
+}

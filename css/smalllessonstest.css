@@ -10,7 +10,7 @@ header, footer {
     }
 
     header {
-        font-size: 80%;
+        font-size: 60%;
         line-height: 1;
         background-color:darkgreen;
         color: white;
@@ -24,8 +24,8 @@ header, footer {
         color: white;
         text-align: center;
         padding: 1.5rem;
+        border-radius: 15px;
         font-family: 'Roboto', sans-serif;
-        font-size: 70%;
     }
 
     span {font-weight: 700;}
@@ -43,14 +43,12 @@ header, footer {
 
     .middle, .left, .right {
         margin: 1.25rem auto;
-        max-width: 750px;
+        max-width: 250px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         padding: 1.5rem;
         border-radius: 15px;
         background-color: darkolivegreen;
-        margin-left: auto;
-        margin-right: auto;
      }
 
      .top {
@@ -63,6 +61,7 @@ header, footer {
         margin-right: auto;
         padding: 1rem;
         padding-left: 3rem;
+        border-radius: 15px;
      }
 
      #gridville {
