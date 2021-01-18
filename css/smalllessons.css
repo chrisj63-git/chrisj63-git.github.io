@@ -1,0 +1,92 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: lightseagreen;
+}
+
+header, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+    }
+
+    header {
+        font-size: 32px;
+        line-height: 1.5;
+        background-color:darkgreen;
+        color: white;
+        /*font-family: 'verdana', sans-serif;*/
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 15px;
+    }
+
+    img {
+        float: right;
+        margin: 10px;
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    
+    footer {
+        background-color:darkgreen;
+        color: white;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+  
+
+    span {font-weight: 700;}
+
+    .divimg {
+            margin: 10px;
+            border: 1px solid black;
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 30px #444;
+    }
+
+    .middle, .left, .right {
+        margin: 1.25rem auto;
+        max-width: 250px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 15px;
+        background-color: darkolivegreen;
+     }
+
+     .top {
+        max-width: 750px;
+        text-align: left;
+        align-items: center;
+        background-color: darkolivegreen;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+        padding-left: 3rem;
+        border-radius: 15px;
+     }
+
+     /* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	section {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	section div:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
