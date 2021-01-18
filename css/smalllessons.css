@@ -42,15 +42,15 @@ header, footer {
     }
 
     .middle, .left, .right {
-        margin: 1.25rem auto;
+        margin: 1 auto;
         max-width: 750px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         padding: 1.5rem;
         border-radius: 15px;
         background-color: darkolivegreen;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
      }
 
      .top {
