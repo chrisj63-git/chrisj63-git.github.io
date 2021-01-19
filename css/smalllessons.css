@@ -46,7 +46,7 @@ header, footer {
         max-width: 300px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
-        padding: auto;
+        padding: 10px;
         border-radius: 15px;
         background-color: darkolivegreen;
         color: white;
