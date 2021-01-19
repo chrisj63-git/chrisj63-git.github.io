@@ -1,49 +1,11 @@
-body {
-    font-size: 18px;
-    line-height: 1.5;
-    background-color: lightseagreen;
-}
+@media only screen and (min-width: 60em) {
 
-header, footer {
-    margin: 1.25rem auto;
-    max-width: 760px;
-    }
+    #gridville {
 
-    header {
-        font-size: 32px;
-        line-height: 1.5;
-        background-color:darkgreen;
-        color: white;
-        /*font-family: 'verdana', sans-serif;*/
-        font-family: 'Roboto', sans-serif;
-        font-weight: 600;
-        text-align: center;
-        padding: 1.5rem;
-        border-radius: 15px;
-    }
-
-    img {
-        float: right;
-        margin: 10px;
-        border: 1px solid black;
-        width: 200px;
-        height: 200px;
-        border-radius: 15px;
-    }
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+     }
     
-    footer {
-        background-color:darkgreen;
-        color: white;
-        text-align: center;
-        padding: 1.5rem;
-        border-radius: 15px;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    span {font-weight: 700;}
-
-    .middle {
-        margin: 1.25rem auto;
-        max-width: 760px;
-        font-family: 'Montserrat', sans-serif;
+     .right {
+        grid-column: span 1;
      }

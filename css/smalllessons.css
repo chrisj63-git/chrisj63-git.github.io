@@ -42,15 +42,13 @@ header, footer {
     }
 
     .middle, .left, .right {
-        margin: 1 auto;
+        margin: 1em auto;
         max-width: 300px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
-        padding: 1.5rem;
+        padding: auto;
         border-radius: 15px;
         background-color: darkolivegreen;
-        padding-left: auto;
-        padding-right: auto;
      }
 
      .top {
@@ -69,6 +67,10 @@ header, footer {
 
         display: grid;
         grid-template-columns: 1fr;
+     }
+
+     .right {
+        grid-column: span 1;
      }
 
 }
