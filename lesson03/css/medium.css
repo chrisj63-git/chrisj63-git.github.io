@@ -8,7 +8,7 @@
         display: flex;
         flex: 1 1 100%;
         border-radius: 15px;
-        font-size: 32px;
+        font-size: 40px;
       }
 
     footer {
@@ -31,5 +31,9 @@
     
     .active {
         color: yellow;
+    }
+
+    nav ul li a {
+        font-size: 1.13rem; 
     }
 }
