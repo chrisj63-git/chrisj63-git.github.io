@@ -16,6 +16,11 @@
         font-size: 18px;
     }
     
+    h1 {
+        padding: 15px;
+        padding-top: 60px;   
+    }
+
     nav {
         border-radius: 15px;
     }
