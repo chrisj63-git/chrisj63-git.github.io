@@ -18,6 +18,8 @@ header, footer {
         font-family: 'Roboto', sans-serif;
         font-weight: 600;
         text-align: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
         padding: 1.5rem;
         margin: 0 auto;
     }
