@@ -40,8 +40,8 @@
         font-size: 1.13rem; 
     }
 
-    ol {
+    ol li {
         font-size:large;
-        padding: 20px;
+        margin-left: 20px;
     }
 }
