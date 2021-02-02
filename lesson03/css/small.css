@@ -2,7 +2,6 @@ body {
     font-size: 18px;
     line-height: 1.5;
     background-color: #7A7978;
-
 }
 
 header, footer {
@@ -62,16 +61,18 @@ header, footer {
     h3 {
         color: #6B0F1A;
         font-size: larger;
+        padding-left: 20px;
     }
 
     p {
-        color: white;
+        padding: 20px;
     }
 
     .middle {
         margin: 1.25rem auto;
         max-width: 760px;
         font-family: 'Aleo', serif;
+        color: white;
      }
 
      #colors{
@@ -125,5 +126,6 @@ header, footer {
     ol {
         font-size: x-small;
         color: white;
+        padding-left: 20px;
     }
     
