@@ -57,10 +57,28 @@ header, footer {
         font-size: larger;
     }
 
+    h3 {
+        color: #6B0F1A;
+        font-size: larger;
+    }
+
     .middle {
         margin: 1.25rem auto;
         max-width: 760px;
         font-family: 'Aleo', serif;
+     }
+
+     #colors{
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 0 30px #444;
+     }
+
+     section, #color-body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 1fr;
      }
 
      #logo {
