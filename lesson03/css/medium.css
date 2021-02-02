@@ -39,4 +39,8 @@
     nav ul li a {
         font-size: 1.13rem; 
     }
+
+    ol {
+        font-size:large;
+    }
 }

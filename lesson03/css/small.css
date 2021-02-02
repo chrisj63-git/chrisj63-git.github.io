@@ -115,4 +115,8 @@ header, footer {
     .active {
         color: #D8F1A0;
     }
+
+    ol {
+        font-size: smaller;
+    }
     
