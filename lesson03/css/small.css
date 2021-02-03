@@ -77,10 +77,11 @@ header, footer {
 
      #colors{
         max-width: 760px; 
-        width: 100%;
+        width: 90%;
         height:auto;
         border-radius: 15px;
         box-shadow: 0 0 30px #444;
+        margin: 0 auto;
      }
 
      section, #color-body{
