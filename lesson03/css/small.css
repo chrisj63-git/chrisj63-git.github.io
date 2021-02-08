@@ -183,6 +183,10 @@ header, footer {
         font-family: 'Lato', sans-serif;
     }
 
+    .ind {
+        margin-left: 30px;
+    }
+
      #colors{
         max-width: 760px; 
         width: 90%;
