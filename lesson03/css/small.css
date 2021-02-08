@@ -44,18 +44,17 @@ header, footer {
 
     span {font-weight: 700;}
 
-    h1 {background-color:  #13315c;
+    h1 {
+        background-color:  #13315c;
         font-size: larger;
         border-radius: 15px;
         margin: 0;
-
     }
 
     h2 {
         text-align: center;
         font-size: larger;
         color: white;
-
     }
 
     h3 {
@@ -68,33 +67,7 @@ header, footer {
         padding: 20px;
     }
 
-    .middle {
-        margin: 1.25rem auto;
-        max-width: 760px;
-        font-family: 'Aleo', serif;
-        color: white;
-     }
-
-     #colors{
-        max-width: 760px; 
-        width: 90%;
-        height:auto;
-        border-radius: 15px;
-        box-shadow: 0 0 30px #444;
-        margin: 0 auto;
-     }
-
-     section, #color-body{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 60px 1fr;
-     }
-
-     #logo {
-         float: none;
-     }
-
-     nav {
+    nav {
         background-color: #13315c;
         text-align: center;
         box-shadow: 0 2px 15px gray;
@@ -120,7 +93,44 @@ header, footer {
         background-color: #bbb;
         color: #36454f;
     }
-    .active {
+
+    ol {
+        font-size: x-small;
+        color: white;
+        padding-left: 20px;
+    }
+    
+    ul {
+     list-style-type: none
+    }
+    
+    table th {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 2px;
+    }
+    
+    table td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 2px;
+      }
+
+      table {
+        background-color: #D8F1A0;
+        min-width: 450px;
+        max-width: 760px;
+        margin: auto;
+      }
+
+    .middle {
+        margin: 1.25rem auto;
+        max-width: 760px;
+        font-family: 'Aleo', serif;
+        color: white;
+     }
+
+     .active {
         color: #D8F1A0;
     }
 
@@ -174,31 +184,25 @@ header, footer {
         font-family: 'Lato', sans-serif;
     }
 
-    ol {
-        font-size: x-small;
-        color: white;
-        padding-left: 20px;
-    }
-    
-    ul {
-     list-style-type: none
-    }
-    
-    table th {
-      border: 1px solid black;
-      border-collapse: collapse;
-      padding: 2px;
-    }
-    
-    table td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        padding: 2px;
-      }
+     #colors{
+        max-width: 760px; 
+        width: 90%;
+        height:auto;
+        border-radius: 15px;
+        box-shadow: 0 0 30px #444;
+        margin: 0 auto;
+     }
 
-      table {
-        background-color: #D8F1A0;
-        min-width: 450px;
-        max-width: 760px;
-        margin: auto;
-      }
+     section, #color-body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 1fr;
+     }
+
+     #logo {
+         float: none;
+     }
+
+
+
+    
