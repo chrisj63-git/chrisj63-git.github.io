@@ -130,3 +130,7 @@ header, footer {
         padding-left: 20px;
     }
     
+    ul {
+     list-style-type: none
+    }
+
