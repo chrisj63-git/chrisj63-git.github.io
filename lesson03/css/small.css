@@ -124,6 +124,56 @@ header, footer {
         color: #D8F1A0;
     }
 
+    .sampleheader {
+        background-color:  #13315c;
+        color: white;
+        font-size: Larger;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .samplenav {
+        background-color:  #13315c;
+        color: white;
+        font-size: 1.05rem;
+        line-height: 1.5;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .samplehead2 {
+        background-color:  #7A7978;
+        color: white;
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: 'Aleo', serif;
+    }
+
+    .samplehead3 {
+        background-color:  #7A7978;
+        color: #6B0F1A;
+        font-size: larger;
+        line-height: 1.5;
+        font-family: 'Aleo', serif;
+    }
+
+
+    .samplepara {
+        background-color:  #7A7978;
+        color: white;
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: 'Aleo', serif;
+    }
+
+    .samplefoot {
+        background-color:  #C4E0F9;
+        color: #13315c;
+        font-size: Larger;
+        font-weight: 18px;
+        font-family: 'Lato', sans-serif;
+    }
+
     ol {
         font-size: x-small;
         color: white;
@@ -133,4 +183,22 @@ header, footer {
     ul {
      list-style-type: none
     }
+    
+    table th {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 2px;
+    }
+    
+    table td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 2px;
+      }
 
+      table {
+        background-color: #D8F1A0;
+        min-width: 450px;
+        max-width: 760px;
+        margin: auto;
+      }
