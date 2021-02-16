@@ -1,7 +1,7 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-    background-color: #bbb;
+    background-color: #7A7978;
 }
 
 header, footer {
@@ -152,7 +152,7 @@ header, footer {
     }
 
     .samplehead2 {
-        background-color:  #36454f;
+        background-color:  #7A7978;
         color: white;
         font-size: 18px;
         line-height: 1.5;
@@ -160,7 +160,7 @@ header, footer {
     }
 
     .samplehead3 {
-        background-color:  #36454f;
+        background-color:  #7A7978;
         color: #6B0F1A;
         font-size: larger;
         line-height: 1.5;
@@ -169,7 +169,7 @@ header, footer {
 
 
     .samplepara {
-        background-color:  #36454f;
+        background-color:  #7A7978;
         color: white;
         font-size: 18px;
         line-height: 1.5;
