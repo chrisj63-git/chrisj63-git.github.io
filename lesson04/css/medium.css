@@ -1,0 +1,33 @@
+@media only screen and (min-width: 37em) {
+
+    
+    img {
+        width: 75%;
+    }
+    
+     h1 {
+        font-size: 6em;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3.5rem;
+        color: white;
+    }
+
+    main {
+        width: 75%;
+        align-content: center;
+    }
+
+    footer {
+        width: 90%;
+        font-size: 2.25rem;
+        align-content: center;
+    }
+   
+    .motto {
+        font-size: 3em;
+    }
+    
+}
