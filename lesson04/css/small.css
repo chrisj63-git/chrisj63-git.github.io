@@ -124,3 +124,7 @@ body {
     .navigation li:first-child {
         Display: block;
         }
+
+        .contentbox {
+            background-color: #C4E0F9;
+        }
