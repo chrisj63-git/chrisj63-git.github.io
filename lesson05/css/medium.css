@@ -1,0 +1,58 @@
+@media only screen and (min-width: 37em) {
+
+    
+    img {
+        width: 75%;
+    }
+    
+     h1 {
+        font-size: 6em;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3.5rem;
+        color: white;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    footer {
+        width: 88%;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-bottom: 0;
+        font-size: 2.25rem;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    }
+   
+    .motto {
+        font-size: 3em;
+    }
+
+    .navigation {
+    Display: flex;
+
+    }
+    
+    .navigation li:first-child {
+    Display: none;
+    }
+
+    .navigation li {
+        Display: block;
+        flex: 1 1 100%;
+        font-size: 1.8rem;
+    }
+
+    .content {
+        width: 90%;
+        margin-left: 8rem;
+        margin-right: 4rem;
+    }
+
+}
