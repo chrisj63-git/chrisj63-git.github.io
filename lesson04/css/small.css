@@ -42,7 +42,7 @@ body {
     footer {
         background-color: #C4E0F9;
         color: #13315c;
-        width: 100%;
+        height: 100%
         display: grid;
         grid-template-rows: 1fr 1fr;
         padding: 1rem;
