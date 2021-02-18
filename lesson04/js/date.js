@@ -36,7 +36,7 @@ function formatDate(d) {
     let dayName = daynames[d.getDay()];
     let monthName = months[d.getMonth()];
     let year = d.getFullYear();
-    let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
+    let fulldate = dayName + ", " + monthName + " " + d.getDate() + " " + year;
 
     return fulldate;
 }
