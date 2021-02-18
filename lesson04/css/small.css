@@ -28,18 +28,6 @@ body {
         box-shadow: 0 0 1.75rem #444;
     }
     
-    .content {
-        margin: 1rem;
-        padding-left: 6rem;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        align-items: center;
-        justify-content: center;
-        font-size: 3rem;
-    }
-
     footer {
         background-color: #C4E0F9;
         color: #13315c;
@@ -125,6 +113,19 @@ body {
         Display: block;
         }
 
-        .contentbox {
-            background-color: #C4E0F9;
+    .content {
+        margin: 1rem;
+        padding-left: 6rem;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        gap: 3rem;
+        }
+
+     .contentbox {
+        background-color: #C4E0F9;
         }
