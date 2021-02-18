@@ -20,11 +20,13 @@
     }
 
     footer {
-        width: 90%;
+        width: 100%;
         font-size: 2.25rem;
         align-items: center;
         justify-content: center;
         display: grid;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
    
     .motto {
