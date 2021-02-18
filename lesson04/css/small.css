@@ -115,7 +115,6 @@ body {
 
     .content {
         margin: 1rem;
-        padding: 6rem;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
@@ -128,4 +127,5 @@ body {
 
      .contentbox {
         background-color: #C4E0F9;
+        padding: 6rem;
         }
