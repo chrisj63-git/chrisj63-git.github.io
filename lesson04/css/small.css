@@ -30,6 +30,7 @@ body {
     
     .content {
         margin: 1rem;
+        padding-left: 6rem;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
@@ -46,9 +47,9 @@ body {
         grid-template-rows: 1fr 1fr;
         padding: 1rem;
         margin: 0;
-        width: 90%;
+        width: 100%;
         position: fixed;
-        left: 5rem;
+        left: 0;
         bottom: 0;
     }
 
