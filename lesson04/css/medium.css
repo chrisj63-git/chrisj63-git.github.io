@@ -43,7 +43,7 @@
     .navigation li {
         Display: block;
         flex: 1 1 100%;
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
 }
