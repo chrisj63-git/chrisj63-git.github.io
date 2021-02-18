@@ -42,11 +42,14 @@ body {
     footer {
         background-color: #C4E0F9;
         color: #13315c;
-        height: 100%
         display: grid;
         grid-template-rows: 1fr 1fr;
         padding: 1rem;
         margin: 0;
+        width: 90%;
+        position: fixed;
+        left: 5rem;
+        bottom: 0;
     }
 
     h1 {
