@@ -43,8 +43,8 @@ body {
         background-color: #C4E0F9;
         color: #13315c;
         width: 100%;
-        display: block;
-       /* grid-template-rows: 1fr 1fr; */
+        display: grid;
+        grid-template-rows: 1fr 1fr;
         padding: 1rem;
         margin: 0;
     }
