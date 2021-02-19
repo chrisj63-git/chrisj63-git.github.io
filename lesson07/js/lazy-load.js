@@ -21,7 +21,7 @@ let imgObserver = new IntersectionObserver((items, imgObserver) => {
         }   
     });
   }, imgOptions);
-    imagesToLoad.forEach((img) => {
+    imagesToAdd.forEach((img) => {
     imgObserver.observe(img); 
 });
 } else {
