@@ -27,7 +27,7 @@ CONST imgObserver = new IntersectionObserver((items, imgObserver) => {
 });
 }
 else {
-    imagesToLoad.forEach((img) =>{
+    imagesToAdd.forEach((img) =>{
       loadImages(img);  
     });
 }
