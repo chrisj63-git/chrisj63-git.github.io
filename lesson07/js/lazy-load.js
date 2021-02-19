@@ -1,4 +1,4 @@
-CONST imagesToAdd = document.querySelectorAll('img[data-src]');
+let imagesToAdd = document.querySelectorAll('img[data-src]');
 
 CONST imgOptions = {
     threshhold: 1,
