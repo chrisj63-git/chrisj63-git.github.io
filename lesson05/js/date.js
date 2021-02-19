@@ -32,7 +32,7 @@ document.getElementById("currdate").textContent = fulldate;
 
 weekday = bannerDate(d);
 
-if (weekday=="Sunday") {
+if (weekday=="Friday") {
     document.getElementById("testbanner").className = "banner";
 } else {
     document.getElementById("testbanner").className = "nobanner";
