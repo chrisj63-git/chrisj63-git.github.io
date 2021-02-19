@@ -44,6 +44,12 @@ body {
         font-family: 'Lato', sans-serif;
     }
 
+    aside {
+        background-color: #D8F1A0;
+        color: black;
+        font-size: 3rem;
+    }
+
     h1 {
         background-color:  #13315c;
         color: white;
@@ -108,7 +114,7 @@ body {
 
     .navigation.responsive li {
         display: block;
-        display:contents;
+        display: contents;
     }
 
     .navigation li {
@@ -118,6 +124,15 @@ body {
     .navigation li:first-child {
         Display: block;
         }
+
+    .banner {
+        display: block;
+    }
+
+    .nobanner {
+        display: none;
+        }   
+
 
     .content {
         margin: 4rem;

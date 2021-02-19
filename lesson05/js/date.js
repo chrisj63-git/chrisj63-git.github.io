@@ -23,13 +23,20 @@ let months = [
     "December"
 ];
 
+var weekday = "Monday";
+
 let d = new Date();
 fulldate = formatDate(d);
-console.log(fulldate);
-tfulldate = fulldate.trim();
-console.log(tfulldate);
 
-document.getElementById("currdate").textContent = tfulldate;
+document.getElementById("currdate").textContent = fulldate;
+
+weekday = bannerDate(d);
+
+if (weekday=="Sunday") {
+    document.getElementById("testbanner").className = "banner";
+} else {
+    document.getElementById("testbanner").className = "nobanner";
+}
 
 function formatDate(d) {
     
@@ -43,4 +50,18 @@ function formatDate(d) {
 
 function toggleMenu () {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+    if (document.getElementById("testnav").className == "navigation responsive") {
+        document.getElementById("menu").innerHTML = "&#9776; Close Menu";
+     } 
+    
+     if (document.getElementById("testnav").className == "navigation") {
+        document.getElementById("menu").innerHTML = "&#9776; Menu";
+        }
+    }
+
+function bannerDate(d) {
+    let dayName = daynames[d.getDay()];
+    
+    return dayName;
 }
+
