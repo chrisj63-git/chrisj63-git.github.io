@@ -24,8 +24,8 @@ const imgObserver = new IntersectionObserver((items, imgObserver) => {
     imagesToAdd.forEach((image) => {
     imgObserver.observe(image); 
 });
-} /* else {
+} else {
     imagesToAdd.forEach((image) =>{
       loadImages(image);  
     }); 
-} */
+}
