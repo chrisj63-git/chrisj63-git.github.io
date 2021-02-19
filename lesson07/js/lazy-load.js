@@ -13,14 +13,21 @@ CONST loadImages = (image) => {
 if('IntersectionObserver' in window){
 CONST imgObserver = new IntersectionObserver((items, imgObserver) => {
     items.forEach((item) => {
-        loadImages(img);
+        if (!items.isIntersecting) {
+            return;
+        } else {
+            loadImages(item.target);
+            imgObserver.unobserve(item.target);
+        }   
     });
 }, imgOptions);
 
     imagesToLoad.forEach((img) => {
-    imgObserver, observe(img); 
+    imgObserver.observe(img); 
 });
 }
 else {
-    
+    imagesToLoad.forEach((img) =>{
+      loadImages(img);  
+    });
 }
