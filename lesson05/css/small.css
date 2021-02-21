@@ -191,7 +191,7 @@ body {
         align-items: center;
         justify-content: center;
         font-size: 3rem;
-        gap: .25rem;
+        gap: 0;
         font-family: 'Aleo', serif;
     }
 
