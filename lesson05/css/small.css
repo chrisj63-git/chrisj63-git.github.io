@@ -39,8 +39,6 @@ body {
         position: relative;
         left: 0;
         bottom: 0;
-        border-top-left-radius: 2rem;
-        border-top-right-radius: 2rem;
         font-family: 'Lato', sans-serif;
     }
 
@@ -66,8 +64,26 @@ body {
         font-size: 2.75rem;
         color: white;
         font-family: 'Lato', sans-serif;
+        margin: 0;
     }
 
+    h3 {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 2rem;
+        margin: 0;
+        line-height: 4rem;
+    } 
+
+    h4 {
+        text-align: center;
+        font-size: 2.75rem;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+        line-height: 3.5rem;
+    }
+    
     nav {
         background-color: #13315c;
         text-align: center;
@@ -98,6 +114,34 @@ body {
         margin: 0;
         text-align: center;
         font-size: 1.75rem;
+    }
+    
+    table {
+        background-color: #bbb;
+    }
+
+    table th {
+        background-color: #C4E0F9;
+        font-size: 1.5rem;
+        color: #13315c;
+    }
+    
+    table td {
+        font-size: 2rem;
+        text-align: center;
+        background-color: #bbb;
+        color: #13315c;
+        border:3px solid #13315c;
+    }   
+    table img{
+        margin: 1rem;
+        border: #bbb;
+        width: 75%;
+        border-radius: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 0 0;
     }
 
     .logo { 
@@ -135,7 +179,7 @@ body {
 
 
     .content {
-        margin: 4rem;
+        margin: 0 2rem 0 2rem;
         width: 90%;
         display: grid;
         grid-template-columns: 1fr;
@@ -143,11 +187,85 @@ body {
         align-items: center;
         justify-content: center;
         font-size: 3rem;
-        gap: 2rem;
+        gap: .25rem;
         font-family: 'Aleo', serif;
         }
 
-     .contentbox {
-        background-color: #C4E0F9;
-        padding: 2rem;
+    .contentbox1 {
+        position: relative;
         }
+
+
+    .contentbox2 {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contentbox3 {
+        font-size: 1.5rem;
+        color: #13315c;
+    }
+
+    .contentbox4 {
+        display: block;
+    }
+
+    .contacts {
+        background-color: #C4E0F9;
+        padding-top: 4rem;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .social td {
+        border: none;
+        background-color: #C4E0F9;
+    }
+
+    .social table {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #C4E0F9;
+    }
+
+    .hero {
+        width: 100%;
+        padding: 0;
+        Margin: 0;
+        border-radius: 0;
+    }
+
+    .herofigure {
+        margin: 0;
+    }
+
+    .wsummary {
+        background-color:#C4E0F9; 
+        width: 18rem;
+        list-style-type :none;
+        padding: 0 1rem 1rem 2rem;
+        opacity: .85;
+        border-radius: 1rem;
+        position: absolute;
+        left: 25px;
+        top: 25px; 
+    }
+    
+    .wsummary p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+
+    .snow-article-img {
+        width: 50%
+    }
+
+    #fiveday {
+        display: none;
+    }

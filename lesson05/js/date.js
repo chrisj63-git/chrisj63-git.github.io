@@ -64,4 +64,3 @@ function bannerDate(d) {
     
     return dayName;
 }
-
