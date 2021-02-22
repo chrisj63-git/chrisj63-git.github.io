@@ -9,6 +9,9 @@ if (temp <= 50 && windspeed > 3) {
     windchill = computeWindChill(temp, windspeed);
     windchill = roundOff(windchill, 2);
     document.getElementById("wc").innerHTML = windchill;
+} else {
+    windchill = temp;
+    document.getElementById("wc").innerHTML = windchill;
 }
 
 function computeWindChill(tempF, speed) {
