@@ -5,7 +5,7 @@ var windchill=48.2
 temp = parseFloat(document.getElementById("tmp").innerHTML);
 windspeed = parseFloat(document.getElementById("ws").innerHTML);
 
-if (temp < 50 && windspeed > 4) {
+if (temp <= 50 && windspeed > 3) {
     windchill = computeWindChill(temp, windspeed);
     windchill = roundOff(windchill, 2);
     document.getElementById("wc").innerHTML = windchill;
