@@ -37,20 +37,25 @@ body {
         background-color: #bbb;
         width: 32rem;
         margin: auto;
+        border-spacing: .2rem;
         box-shadow: 1.5rem 1.5rem 1.75rem #628ca6;
+        font-family: Ubuntu, sans-serif;
     }
 
-    table th {
-        font-size: 1.5rem;
+    table thead tr td {
+        font-size: 2.5rem;
+        font-weight: 700;
     }
     
     table tr {
         background-color: #e7f0ed;
     }
 
-    table tr:first-child {
+    table tr:nth-child(1) {
         background-color: #628ca6;
         color: white;
+        font-size: .rem;
+        font-weight: 700;
     }
     
     tr:nth-child(odd) {
@@ -62,11 +67,11 @@ body {
 
     }
     
-    table td {
+    table tr td {
         font-size: 2rem;
         text-align: center;
         vertical-align: center;
-        padding: .75rem;
+        padding: .8rem .2rem;
     }   
     
     thead tr td, tfoot tr td {
@@ -76,8 +81,9 @@ body {
         width: 100%;
     }
     
-    tfoot {
-
+    tfoot tr td {
+        font-size: 1.5rem;
+        font-weight: 500;
     }
 
     #nov-goal {
