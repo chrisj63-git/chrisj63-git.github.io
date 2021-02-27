@@ -33,9 +33,9 @@ document.getElementById("currdate").textContent = fulldate;
 weekday = bannerDate(d);
 
 if (weekday=="Friday") {
-    document.getElementById("testbanner").className = "banner";
+    document.getElementById("testbanner").className="banner";
 } else {
-    document.getElementById("testbanner").className = "nobanner";
+    document.getElementById("testbanner").className="nobanner";
 }
 
 function formatDate(d) {
