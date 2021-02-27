@@ -42,7 +42,7 @@
 }
 
 .top {
-    flex-basis: 14rem;
+    flex-basis: 15rem;
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -52,7 +52,7 @@
 }
 
 #sdate {
-    flex-basis: 14rem;
+    flex-basis: 15rem;
     flex-grow: 0;
     flex-shrink: 0;
 }
