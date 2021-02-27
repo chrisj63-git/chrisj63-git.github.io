@@ -51,6 +51,12 @@
     margin: 0 0 2rem 17rem;
 }
 
+#sdate {
+    flex-basis: 14rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
 }
 /*----------- FOOTER --------------*/
     
