@@ -47,11 +47,6 @@
     flex-shrink: 0;
 }
 
-.intop {
-    flex-grow: inherit;
-    flex-shrink: inherit:
-}
-
 #submitBtn {
     margin: 0 0 2rem 17rem;
 }
