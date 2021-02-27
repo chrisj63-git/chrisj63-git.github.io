@@ -228,6 +228,8 @@ footer {
     border-radius: 1rem;
     box-shadow: .7rem .7rem 1rem #444;
     margin-left: 3rem;
+    background-color:darkgreen;
+    color: white;
 }
 
 #sdate {
