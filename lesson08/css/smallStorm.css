@@ -230,6 +230,11 @@ footer {
     margin-left: 3rem;
 }
 
+#sdate {
+    display: block;
+    padding: .5rem;    
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
