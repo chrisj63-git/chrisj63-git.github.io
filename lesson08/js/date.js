@@ -35,7 +35,7 @@ weekday = bannerDate(d);
 if (weekday=="Friday") {
     document.getElementById("testbanner").className="banner";
 } else {
-    document.getElementById("testbanner").className="nobanner";
+    document.getElementById("testbanner").className="nobanner1";
 }
 
 function formatDate(d) {
