@@ -14,7 +14,6 @@
     
     .navigation {
         Display: flex;
-    
         }
         
         .navigation li:first-child {
@@ -56,6 +55,13 @@
     padding: 2rem 5rem;
     font-size: 3rem;
 }
+
+
+
+
+
+
+
 
 
 /*----------- FOOTER --------------*/
