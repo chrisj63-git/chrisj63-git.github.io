@@ -1,0 +1,53 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35em) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+    
+    .navigation {
+        Display: flex;
+    
+        }
+        
+        .navigation li:first-child {
+        Display: none;
+        }
+    
+        .navigation li {
+            Display: block;
+            flex: 1 1 100%; 
+            font-size: 1.8rem;
+        }
+
+
+/*----------- MAIN --------------*/
+/*-------------Form-------------*/
+
+
+.top {
+    display: block;
+    padding: .5rem;
+}
+
+.reporter, .storm, .more {
+    display: flex;
+    flex-direction: column;
+}
+
+#submitBtn {
+    padding: 2rem 5rem;
+    font-size: 3rem;
+}
+
+
+/*----------- FOOTER --------------*/
+    
+ /* end of media query */

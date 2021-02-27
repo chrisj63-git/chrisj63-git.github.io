@@ -1,0 +1,46 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 50rem) {
+
+    main {
+        max-width: 75rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+
+/*----------- FORM --------------*/
+
+.reporter, .storm, .more {
+    display: flex;
+    flex-direction: row;
+}
+
+.stormr {
+    flex-direction: column;
+}
+
+.top {
+    flex-basis: 12rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#submitBtn {
+    margin-bottom: 2rem;
+}
+
+/*----------- FOOTER --------------*/
+    
+ /* end of media query */
