@@ -56,7 +56,7 @@
                 </div>
                 <div class="reporter">
                     <label class="top">Zip Code*</label>
-                    <input class="intop" type="text" id="zip" maxlength="10" name="zip"placeholder="Zip Code #####-####" pattern="[0-9 -]{5,10}" required>
+                    <input class="intop" type="text" id="zip" maxlength="10" name="zip" placeholder="Zip Code #####-####" pattern="[0-9 -]{5,10}" required>
                 </div>
           </fieldset>
           <fieldset>
@@ -87,8 +87,8 @@
                     </label>
                 </div>
                 <div class="storm" >
-                    <label class="top" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;</label>
-                    <input id="slide" class="intop" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <label class="top">Storm Severity: &nbsp;&nbsp;&nbsp;</label>
+                    <input class="intop" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
                        <datalist id="tickmarks">
                             <option value="0">
@@ -131,8 +131,7 @@
                         <input type="radio" name="danger" value="Maybe"> Maybe</label>
                 </div>
             </fieldset>
-          </fieldset>
-          <fieldset>
+            <fieldset>
               <legend>Additional Information</legend>
                 <div class="more">
                   <label class="top">Observations</label>
@@ -140,7 +139,7 @@
                     </textarea>
                 </div>
 
-          </fieldset>
+            </fieldset>
           <input type="submit" value="Send Report" class="storm" id="submitBtn">
         </form>
     </main>
