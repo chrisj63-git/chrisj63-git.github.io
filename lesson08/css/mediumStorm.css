@@ -37,7 +37,17 @@
     padding: .5rem;
 }
 
-.reporter, .storm, .more {
+.reporter {
+    display: flex;
+    flex-direction: column;
+}
+
+.storm {
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
     display: flex;
     flex-direction: column;
 }

@@ -75,20 +75,20 @@
                                 <option value="Thunderstorm">
                                 <option value="Tornado"> 
                         </datalist>
-		                    <label>
-			                    <select class="intop" name="stype" id="selecttype" onchange="selectResponset()">
-				                <option value="" disabled selected>Select a Storm Type ...</option>
-				                <option value="Flash Flood">Flash Flood</option>
-                                <option value="Hail">Hail</option>
-                                <option value="Hurricane">Hurricane</option>
-                                <option value="Thunderstorm">Thunderstorm</option>
-                                <option value="Hurricane">Tornado</option>
-			                    </select>
-                            </label>
+		            <label class="intop">
+			            <select class="intop" name="stype" id="selecttype" onchange="selectResponset()">
+				            <option value="" disabled selected>Select a Storm Type ...</option>
+				            <option value="Flash Flood">Flash Flood</option>
+                            <option value="Hail">Hail</option>
+                            <option value="Hurricane">Hurricane</option>
+                            <option value="Thunderstorm">Thunderstorm</option>
+                            <option value="Hurricane">Tornado</option>
+			                </select>
+                    </label>
                 </div>
                 <div class="storm" >
                     <label class="top" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;</label>
-                    <input class="intop" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <input id="slide" class="intop" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
                        <datalist id="tickmarks">
                             <option value="0">
@@ -112,14 +112,14 @@
                             <option value="Preston">
                             <option value="Soda Springs">
                         </datalist>
-		                    <label>
-			                    <select class="intop" name="region" id="selectregion" onchange="selectResponser()">
-				                <option value="" disabled selected>Select a Region ...</option>
-				                <option value="Fish Haven">Fish Haven</option>
-                                <option value="Preston">Preston</option>
-                                <option value="Soda Springs">Soda Springs</option>
-			                    </select>
-                            </label>
+		            <label class="intop">
+			            <select class="intop" name="region" id="selectregion" onchange="selectResponser()">
+				        <option value="" disabled selected>Select a Region ...</option>
+				        <option value="Fish Haven">Fish Haven</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+			            </select>
+                    </label>
                 </div>
                 <div class="stormr">
                     <h4 class="stormr">Are you in danger?</h4>

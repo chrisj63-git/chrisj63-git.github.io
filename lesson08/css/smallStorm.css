@@ -179,10 +179,6 @@ legend{
     Display: none;
 }
 
-.intop {
-    width:100%;
-}
-
 .intop:required {
     border-left: #6B0F1A solid 6px;
 }
@@ -191,10 +187,10 @@ legend{
     border-left: green solid 6px;
 }
 
-.intop .sintop {
-    Display: flex;
-    flex-direction: column;
-    font-size: 3rem;
+.intop {
+    Display: block;
+    font-size: 2rem;
+    width: 100%;
     color: #13315c;
 }
 
@@ -220,16 +216,18 @@ footer {
     left: 0;
     bottom: 0;
     font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
 }
 
 #ratingvalue {
-    margin: 0 15px;
-    font-size: 2rem;;
+    margin: 10px 15px;
+    font-size: 2rem;
 }
 
 #submitBtn {
     border-radius: 1rem;
     box-shadow: .7rem .7rem 1rem #444;
+    margin-left: 3rem;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

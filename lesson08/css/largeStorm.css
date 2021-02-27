@@ -22,7 +22,17 @@
 
 /*----------- FORM --------------*/
 
-.reporter, .storm, .more {
+.reporter {
+    display: flex;
+    flex-direction: row;
+}
+
+.storm {
+    display: flex;
+    flex-direction: row;
+}
+
+.more {
     display: flex;
     flex-direction: row;
 }
@@ -32,14 +42,21 @@
 }
 
 .top {
-    flex-basis: 12rem;
+    flex-basis: 14rem;
     flex-grow: 0;
     flex-shrink: 0;
 }
 
-#submitBtn {
-    margin-bottom: 2rem;
+.intop {
+    flex-grow: inherit;
+    flex-shrink: inherit:
 }
+
+#submitBtn {
+    margin: 0 0 2rem 17rem;
+}
+
+
 
 /*----------- FOOTER --------------*/
     
