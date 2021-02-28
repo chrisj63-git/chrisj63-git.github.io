@@ -16,4 +16,13 @@
         font-size: 3.5em;
     }
 
+    .piccontent {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;   
+    }
+
+    .imageblock:hover {
+        box-shadow: 0 0 1rem #222;
+    }
 }
