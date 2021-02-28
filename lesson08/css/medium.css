@@ -95,6 +95,11 @@
         justify-content: center;
       }
 
+      .contact-top p {
+        font-size: 3rem;
+      }
+
+
       .contact-info {
         display: grid;
         grid-column-start: 2;
