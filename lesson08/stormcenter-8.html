@@ -70,31 +70,32 @@
                     <input class="intop" type="date" name="phone">
                 </div>
                 <div class="storm">
-                    <label class="top">Storm Type:</label>
+                    <label class="top">Storm Type:
                         <datalist id="stormtlist">
                             <option value="">
-                                <option value="Flash Flood">
-                                <option value="Hail">
-                                <option value="Hurricane">
-                                <option value="Thunderstorm">
-                                <option value="Tornado"> 
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado"> 
                         </datalist>
-		            <label class="intop">
-			            <select class="intop" name="stype" id="selecttype" onchange="selectResponset()">
-				            <option value="" disabled selected>Select a Storm Type ...</option>
-				            <option value="Flash Flood">Flash Flood</option>
-                            <option value="Hail">Hail</option>
-                            <option value="Hurricane">Hurricane</option>
-                            <option value="Thunderstorm">Thunderstorm</option>
-                            <option value="Hurricane">Tornado</option>
-			                </select>
-                    </label>
+		                        <label class="intop">
+			                        <select class="intop" name="stype" id="selecttype" onchange="selectResponset()">
+				                        <option value="" disabled selected>Select a Storm Type ...</option>
+				                        <option value="Flash Flood">Flash Flood</option>
+                                <option value="Hail">Hail</option>
+                                <option value="Hurricane">Hurricane</option>
+                                <option value="Thunderstorm">Thunderstorm</option>
+                                <option value="Hurricane">Tornado</option>
+			                        </select>
+                            </label>
+                      </label>
                 </div>
                 <div class="storm" >
-                    <label id="ssevere" class="top">Storm Severity: &nbsp;&nbsp;&nbsp;</label>
-                    <input class="intop" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
-                       <datalist id="tickmarks">
+                    <label id="ssevere" class="top">Storm Severity: &nbsp;&nbsp;&nbsp;
+                      <input class="intop" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                          <datalist id="tickmarks">
                             <option value="0">
                             <option value="1">
                             <option value="2">
@@ -107,23 +108,25 @@
                             <option value="9">
                             <option value="10">
                         </datalist>
+                    </label>    
                 </div>
                 <div class="storm">
                     <label class="top">Storm Region:</label>
                         <datalist id="regionlist">
-                            <option value="">
-                            <option value="Fish Haven">
-                            <option value="Preston">
-                            <option value="Soda Springs">
+                          <option value="">
+                          <option value="Fish Haven">
+                          <option value="Preston">
+                          <option value="Soda Springs">
                         </datalist>
-		            <label class="intop">
-			            <select class="intop" name="region" id="selectregion" onchange="selectResponser()">
-				        <option value="" disabled selected>Select a Region ...</option>
-				        <option value="Fish Haven">Fish Haven</option>
-                        <option value="Preston">Preston</option>
-                        <option value="Soda Springs">Soda Springs</option>
-			            </select>
-                    </label>
+		                      <label class="intop">
+			                      <select class="intop" name="region" id="selectregion" onchange="selectResponser()">
+				                      <option value="" disabled selected>Select a Region ...</option>
+				                      <option value="Fish Haven">Fish Haven</option>
+                              <option value="Preston">Preston</option>
+                              <option value="Soda Springs">Soda Springs</option>
+			                      </select>
+                          </label>
+                      </label>    
                 </div>
                 <div class="stormr">
                     <h4 class="stormr">Are you in danger?</h4>
@@ -138,9 +141,10 @@
             <fieldset>
               <legend>Additional Information</legend>
                 <div class="more">
-                  <label class="top">Observations:</label>
+                  <label class="top">Observations:
                     <textarea class="intop" id="observe" name="observation" rows="6" cols="50">Type observations here.
                     </textarea>
+                  </label>  
                 </div>
 
             </fieldset>
