@@ -232,7 +232,7 @@ footer {
     color: white;
 }
 
-#sdate {
+#sdate, #ssevere {
     display: block;
     padding: .5rem;    
 }
