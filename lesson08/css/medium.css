@@ -106,7 +106,12 @@
        top: 25px;
     }
 
-   
+    .piccontent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }   
+
     #fiveday {
         display: block;
     } 
