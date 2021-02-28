@@ -319,6 +319,10 @@ body {
         width: 100%;
     }
 
+    .socialicons {
+        display: none;
+    }
+
     img2 {
         margin: 1rem;
         border: 1px solid black;

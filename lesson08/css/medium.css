@@ -85,19 +85,33 @@
     .contacts {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 100%; 
+        width: 100%;
     }
 
     .contact-top {
-        display: block;
-    }
-    .map {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-content: center;
+      }
+
+      .contact-info {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+    div.map {
         max-width: 400px;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 1;
     }
 
-    .socialicons img {
-        display: block;
-
+    .socialicons {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-content: center;
     }
 
     .wsummary {
