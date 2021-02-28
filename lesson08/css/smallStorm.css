@@ -238,17 +238,25 @@ footer {
     color: white;
 }
 
-#sdate, #ssevere {
+#sdate, #ssevere, #selecttype, #selectregion {
     display: block;
-    padding: .5rem;
-    width: 100%;    
+    padding: 22px 10px;
+    width: 100%;
 }
 
+.intop {
+    padding: 22px 10px;
+}
+
+.reporter {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: .5rem; 
+}
 .storm {
     display: flex;
     flex-direction: column;
-    padding: .75rem;
-    margin-bottom: .5rem;
 }
 
 .more {
