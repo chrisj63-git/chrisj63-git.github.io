@@ -337,6 +337,11 @@ body {
         margin: 1rem .75rem;
     }
 
+    .piccontent {
+        display: grid;
+        justify-content: center;
+    }   
+
   
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
