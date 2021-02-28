@@ -100,20 +100,21 @@
         grid-column-start: 2;
         grid-column-end: 3;
       }
-    div.map {
+    
+      .map {
         max-width: 400px;
         display: grid;
         grid-column-start: 1;
-        grid-column-end: 1;
-    }
-
-    .socialicons {
-        display: grid;
-        grid-column-start: 1;
         grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
         justify-content: center;
     }
 
+    .socialicons img {
+        width: 2rem;
+        display: block;
+    }
     .wsummary {
        position: absolute;
        left: 25px;
