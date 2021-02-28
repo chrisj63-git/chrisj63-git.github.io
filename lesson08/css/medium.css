@@ -93,6 +93,7 @@
         grid-column-start: 1;
         grid-column-end: 2;
         justify-content: center;
+        padding-top: 20px;
       }
 
       .contact-top p {
