@@ -244,6 +244,19 @@ footer {
     width: 100%;    
 }
 
+.storm {
+    display: flex;
+    flex-direction: column;
+    padding: .75rem;
+    margin-bottom: .5rem;
+}
+
+.more {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";

@@ -30,12 +30,19 @@
 /*----------- MAIN --------------*/
 /*-------------Form-------------*/
 
-
+/*
 .top {
     display: block;
     padding: .5rem;
+    width: 100%;
+
 }
 
+.intop {
+    display: block;
+    padding: .5rem;
+}
+*/
 .reporter {
     display: flex;
     flex-direction: column;
@@ -46,11 +53,12 @@
     flex-direction: column;
 }
 */
+/*
 .more {
     display: flex;
     flex-direction: column;
 }
-
+*/
 #submitbtn {
     padding: 2rem 5rem;
     font-size: 3rem;
