@@ -195,6 +195,11 @@ legend{
     color: #13315c;
 }
 
+.storm {
+    display: block;
+    width: 100%;
+}
+
 .stormr {
     display: block;
     padding: .25rem;
