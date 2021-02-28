@@ -308,6 +308,12 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
+    }
+
+    .piccontent {
+        display: grid;
+        justify-content: center;
+    }
 
     img2 {
         margin: 1rem;
