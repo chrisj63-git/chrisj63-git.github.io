@@ -155,6 +155,7 @@ body {
     picture img {
         transition-delay: 0.5s;
         filter: blur(0em);
+        width: 90%;
     }
 
     main {
@@ -335,7 +336,7 @@ body {
         text-align: left;
         padding: 0 1rem;
         margin: 0 0 2rem 3rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
         justify-items: center;
     }
 
@@ -350,6 +351,10 @@ body {
         display: grid;
         justify-content: center;
     }   
+
+    .imageblock.img {
+        width: 100%
+    }
 
   
 /*----- Clearfix: Force an Element not to collapse -----*/
