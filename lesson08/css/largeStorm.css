@@ -22,10 +22,15 @@
 
 /*----------- FORM --------------*/
 
+
+/*
 .reporter {
     display: flex;
     flex-direction: row;
 }
+*/
+
+
 
 .storm {
     display: flex;
@@ -40,13 +45,13 @@
 .stormr {
     flex-direction: column;
 }
-
+/*
 .top {
     flex-basis: 15rem;
     flex-grow: 0;
     flex-shrink: 0;
 }
-
+*/
 #submitbtn {
     margin: 0 0 2rem 17rem;
 }

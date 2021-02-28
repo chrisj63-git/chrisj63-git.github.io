@@ -174,11 +174,12 @@ legend{
     padding: 0.75rem;
     font-size: 2rem;
 }
-
+/*
 .top {
     Display: none;
 }
 
+*/
 .intop:required {
     border-left: #6B0F1A solid 6px;
 }
@@ -187,7 +188,7 @@ legend{
     border-left: green solid 6px;
 }
 
-.intop {
+.top .intop {
     Display: block;
     font-size: 2rem;
     width: 100%;
