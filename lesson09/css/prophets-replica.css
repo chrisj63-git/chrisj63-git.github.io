@@ -2,7 +2,6 @@
     
     html {
       font-size: 62.5%;
-      background-color: black;
     }
 
     main {
@@ -12,8 +11,8 @@
       margin-left: auto;
       margin-right: auto;
       padding: 1rem;
-      background-color: lightyellow;
-      box-shadow: 0 0 3rem #ccc;
+      background-color: #ccc;
+      box-shadow: 0 0 3rem #222;
     }
 
     img {
@@ -30,7 +29,7 @@
         display: flex;
         font-size: 3em;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: purple;
+        color: #6666a2;
         padding: 1.5rem;
         justify-content: center;
         margin-left: auto;
@@ -40,7 +39,7 @@
 
     h2 {
       display: flex;
-      color: purple;
+      color: #6666a2;
       font-size: 1.8rem;
       justify-content: center;
       margin-left: auto;
@@ -50,7 +49,7 @@
 
     h3 {
       display: flex;
-      color: #333;
+      color: #767682;
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
@@ -61,7 +60,7 @@
     
     p {
         display: flex;
-        color: #333;
+        color: #767682;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -76,7 +75,7 @@
     }
 
     .cards section {
-      background-color: rgb(247, 160, 80);
+      background-color: rgb(174, 174, 212);
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
@@ -100,7 +99,4 @@
       margin-top: 2rem;
     }
 
-    footer p {
-      color: purple;
-    }
     
