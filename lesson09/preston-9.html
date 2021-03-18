@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  <head>
+    <Title>snow fun</Title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Chris Johnson" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Chris Johnson WDD 230: Preston area town site weather page titled 'snow fun'.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="../css/mynormalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Lato:ital,wght@1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link href="css/small.css" rel="stylesheet" type="text/css">
+    <link href="css/medium.css" rel="stylesheet" type="text/css">
+    <link href="css/large.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <aside id="testbanner" class="nobanners">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</aside>
+    <header>
+      <picture>
+        <img class="logo" src="images/snowflake.gif" alt="snow fun website snowflake icon">
+      </picture>
+      <section class = "headTxt">
+        <h1>snow fun</h1>
+        <div class="motto">It's snow fun or It's no fun!</div>
+      </section>
+    </header>
+      <nav>
+        <ul id="testnav" class="navigation">
+          <li><a href="#" id="menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="preston-9.html" class="active">Preston</a></li>
+          <li><a href="sodasprings-9.html">Soda Springs</a></li>
+          <li><a href="fishhaven-9.html">Fish Haven</a></li>
+          <li><a href="stormcenter-9.html">Storm Center</a></li>
+          <li><a href="gallery-9.html">Gallery</a></li>
+        </ul>
+      </nav>
+    <main>
+      <h2>Preston Idaho</h2>
+      <section class="content">
+        <div class="contentbox1" >
+          <figure class="herofigure">
+            <img class="hero" src="images/franklin-250.jpg" alt="Preston City arial view "
+                srcset="images/preston-small.jpg 750w,
+                        images/preston-med.jpg 1200w,
+                        images/preston-large.jpg 1500w"
+                        sizes="100vw" >                
+          </figure>  
+          <section class="wsummary">
+            <h3 id="title">Weather Summary</h3>
+            <p id="currently">Currently: Sunny</p>
+            <p id="high">High: 76 &deg F</p>
+            <p id="temp">Temperature: <span id="tmp">37</span> &deg F</p>
+            <p id="windspeed">Wind Speed: <span id="ws">20</span> mph.</p>
+            <p id="windchill">Wind Chill: <span id="wc">30.6</span> &deg F</p>
+            <p id="humid">Humidity: 65%</p>
+          </section>
+        </div>
+        <div id="fiveday" class="contentbox2">
+          <h4>5 Day Forecast</h4><br>
+            <table class="table2">
+              <tbody>
+                <tr>
+                  <th>Sunday</th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                </tr>
+                <tr>
+                  <td><img class="weathericon" src="images/fog.gif" alt="icon representing fog"></td>
+                  <td><img class="weathericon" src="images/heavyclouds.gif" alt="icon representing heavy clouds"></td>
+                  <td><img class="weathericon" src="images/snow.gif" alt="icon representing snow"></td>
+                  <td><img class="weathericon" src="images/rain.gif" alt="icon representing rain"></td>
+                  <td><img class="weathericon" src="images/sun.gif" alt="icon representing sun"></td>
+                </tr>
+                <tr>
+                  <td>35 F</td>
+                  <td>37 F</td>
+                  <td>27 F</td>
+                  <td>38 F</td>
+                  <td>45 F</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div id="art" class="contentbox3">
+          <h4>Snow comes to Idaho</h4><br>
+          <p> by Johnny Beckstrand</p><br>
+          <img class="snow-article-img" src="images/snow-tracks.jpg" alt="snow on ground with footprints">
+          <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci massa, malesuada non lobortis vitae, fermentum eget magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus commodo vulputate velit ultrices rutrum. Sed mollis sapien justo, a interdum nibh porta bibendum. In hac habitasse platea dictumst. Donec neque magna, tincidunt non urna vel, tempus scelerisque mi. Nam est erat, consequat ut lacus quis, tincidunt porttitor massa. Fusce in nisi aliquam, imperdiet est vitae, facilisis lacus. Nam eget purus porta, euismod dolor a, consequat libero. Curabitur pharetra nibh a nulla pulvinar varius. Duis quis arcu dictum, tincidunt augue vel, molestie nulla. Vestibulum elementum finibus egestas. Vivamus a elementum ex. Cras ultrices tempor felis in tincidunt.</p>
+        </div>
+       
+      </section>  
+    </main>   
+        <div id="contact" class="contentbox4">
+              <br><h4>Contact Information</h4><br>
+            <Section class="contacts">
+              <div class="map">
+                <img id="prestonmap" class="map" src="images/prestionmap.jpg" alt="map of Preston, ID">
+              </div>        
+              
+              <div class="contact-info">
+               
+               
+                <section class="contact-top">
+                  <p>snow fun</p>
+                  <p>327 N State St</p>
+                  <p>Preston, ID 83263</p><br>
+                </section>
+                
+                <section class="contact-bottom">
+                  <p>snowfun@preston.com</p>
+                  <p>(999) 999-9999</p><br>
+                </section>
+ 
+                <div class="social">
+                  <section class="socialicons">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <a target="_blank" href="https://www.facebook.com">
+                            <img  class="socialicon" src="images/facebook.gif" alt="icon representing facebook link">
+                            </a>
+                          </td>
+                          <td>
+                            <a target="_blank" href="https://www.pinterist.com"> 
+                            <img class="socialicon" src="images/pinterist.gif" alt="icon representing pinterest link">
+                            </a>
+                          </td>
+                          <td>
+                            <a target="_blank" href="https://www.twitter.com">
+                            <img class="socialicon" src="images/twitter.gif" alt="icon representing twitter link">
+                            </a>
+                          </td>
+                          <td>
+                            <a target="_blank" href="https://www.instagram.com">
+                            <img class="socialicon" src="images/instagram.gif" alt="icon representing instagram link">
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </section>
+                </div>
+              </div>
+              </Section> 
+              </div> 
+            </Section> 
+        </div>
+
+
+
+    <footer>
+      <p>&copy; snow fun site | Attributions | Chris Johnson<br></p>
+      <p><span id="currdate"></span></p>
+      <div id="mediacheck" class="media-small"></div>
+    </footer>
+      <script src="js/date.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="js/webfont.js"></script>
+      <script src="js/windchill.js"></script>
+  </body>
+</html> 

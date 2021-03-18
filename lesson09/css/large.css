@@ -1,0 +1,79 @@
+@media only screen and (min-width: 50em) {
+
+    
+    img {
+        width: 80%;
+        padding: .5em;
+    }
+      
+    h1 {
+        font-size: 7em;
+    }
+    .headTxt {
+        padding: 2em;
+    }
+    .motto {
+        font-size: 3.5em;
+    }
+
+    .piccontent {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;   
+    }
+
+    .imageblock:hover {
+        box-shadow: 0 0 1rem #222;
+    }
+
+    .contacts {
+        display: grid;
+        grid-template-columns: 20% 1fr 1fr 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-top {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-content: center;
+      }
+
+      .contact-bottom {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-content: center;
+      }
+
+      .contact-top p {
+        font-size: 3rem;
+      }
+
+
+      .contact-info {
+        display: grid;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        justify-content: center;
+      }
+    /*
+      .socialicons img {
+        width: 2rem;
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+*/
+      .map {
+        max-width: 400px;
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-content: center;
+    }
+
+}

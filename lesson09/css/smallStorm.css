@@ -1,0 +1,273 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 62.5%;
+    }
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #bbb;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #C4E0F9;
+    color: #13315c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    margin: 0;
+    background-color:  #13315c;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 1.25rem;
+    padding: .35rem;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+h2 {
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.75rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding-top: 2rem;
+    }
+
+h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    line-height: 4rem;
+    }
+    
+h4  {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    color: #13315c;
+    margin: 0;
+    padding-top: 2rem;;
+}
+
+
+    
+    img {
+        margin: 1rem;
+        border: 1px solid black;
+        width: 50%;
+        border-radius: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 1.75rem #444;
+    }
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #13315c;
+    text-align: center;
+    box-shadow: 0 2px 1rem gray;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1.05rem;
+    text-decoration: none;
+    font-size: 1.45rem;
+}
+
+nav a:hover {
+    background-color: #bbb;
+    color: #36454f;
+}
+
+.logo { 
+    background-color:skyblue;
+}
+
+.motto {
+    font-size: 1.5rem;
+    padding: .25rem;
+}
+.active {
+    color: #D8F1A0;
+}
+
+.navigation.responsive li {
+    display: block;
+    display: contents;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li:first-child {
+    Display: block;
+    }
+
+.banner {
+    display: block;
+}
+
+.nobanners {
+    display: none;
+}   
+
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/*-------------Form-------------*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #13315c;
+    border-radius: 10px;
+    padding: .5rem 2%;
+
+}
+
+legend{
+    font-size: 2.5rem;
+    color: #13315c;
+}
+
+.reporter, .storm, .more {
+    color: #13315c;
+    margin: 0 1rem;
+    padding: 0.75rem;
+    font-size: 2rem;
+}
+/*
+.top {
+    Display: none;
+}
+
+*/
+.intop:required {
+    border-left: #6B0F1A solid 6px;
+}
+
+.intop:required:valid {
+    border-left: green solid 6px;
+}
+
+.top .intop {
+    Display: block;
+    font-size: 2rem;
+    width: 100%;
+    color: #13315c;
+}
+
+.storm {
+    display: block;
+    width: 100%;
+}
+
+.stormr {
+    display: block;
+    padding: .25rem;
+    font-size: 2rem;
+    color: #13315c;
+    margin: 0 1rem;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    padding: .5rem 2%;
+    text-align: center;
+    background-color: #C4E0F9;
+    color: #13315c;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+    width: 98.4%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+
+#ratingvalue {
+    margin: 10px 15px;
+    font-size: 2rem;
+}
+
+#submitbtn {
+    border-radius: 1rem;
+    box-shadow: .7rem .7rem 1rem #444;
+    margin-left: 3rem;
+    background-color:darkgreen;
+    color: white;
+}
+
+#sdate, #ssevere, #selecttype, #selectregion {
+    display: block;
+    padding: 12px 10px;
+    width: 100%;
+}
+
+.intop {
+    padding: 12px 10px;
+}
+
+.reporter {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: .5rem; 
+}
+.storm {
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
