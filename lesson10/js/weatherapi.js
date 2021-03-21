@@ -1,19 +1,13 @@
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-}
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=c66865392f629eb0e6b62d563af8fd88&units=imperial";
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+	document.getElementById('current-temp').textContent = jsObject.main.temp;
+  });
 
-function selectResponser() {
-	const s = document.querySelector('#selected')
-	const sel = document.querySelector('#regionlist');
-	s.style.display = block;
-	s.textContent = sel.value;
-	
-}
-
-function selectResponset() {
-	const t = document.querySelector('#selected')
-	const sel = document.querySelector('#stormtlist');
-	t.style.display = block;
-	t.textContent = sel.value;
-	
-}
+const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
+const desc = jsObject.weather[0].description;  // note how we reference the weather array
+document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
+document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+document.getElementById('icon').setAttribute('alt', desc);
