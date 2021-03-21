@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  <head>
+    <Title>snow fun</Title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Chris Johnson" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Chris Johnson WDD 230: Preston area town site weather page titled 'snow fun'.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="../css/mynormalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Lato:ital,wght@1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link href="css/smallStorm.css" rel="stylesheet" type="text/css">
+    <link href="css/mediumStorm.css" rel="stylesheet" type="text/css">
+    <link href="css/largeStorm.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header>
+      <picture>
+      <img class="logo" src="images/snowflake.gif" alt="snow fun website snowflake icon">
+      </picture>
+      <section class = "headTxt">
+      <h1>snow fun</h1>
+      <div class="motto">It's snow fun or It's no fun!</div>
+      </section>
+    </header>
+    <nav>
+      <ul id="testnav" class="navigation">
+        <li><a href="#" id="menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston-10.html">Preston</a></li>
+        <li><a href="sodasprings-10.html">Soda Springs</a></li>
+        <li><a href="fishhaven-10.html">Fish Haven</a></li>
+        <li><a href="stormcenter-10.html" class="active">Storm Center</a></li>
+        <li><a href="gallery-10.html">Gallery</a></li>
+      </ul>
+    </nav>
+    
+    <main>
+        <h2>Report a Storm Here</h2>
+        <form method="get"  action="thanks.html">
+            <fieldset>
+              <legend>Reported by</legend>
+                <div class="reporter">
+                    <label class="top">Full Name*
+                    <input class="intop" type="text" name="fullname" placeholder="Full name" pattern="[A-Za-z ]{5,}" required>
+                    </label>
+                </div>
+                <div class="reporter">
+                    <label class="top">Email
+                    <input class="intop" type="email" name="email" placeholder="someone@gmail.com">
+                    </label>
+                </div>
+                <div class="reporter">
+                    <label class="top">Phone number*
+                    <input class="intop" type="tel" name="phone" placeholder="1235551234" required>
+                </label>   
+                </div>
+                <div class="reporter">
+                    <label class="top">Zip Code*
+                    <input class="intop" type="number" id="zip" maxlength="10" name="zip" placeholder="Zip Code #####-####" required>
+                </label>  
+                </div>
+            </fieldset>
+            <fieldset>
+              <legend>Storm Information</legend>
+                <div class="storm">
+                    <label id="sdate" class="top">Storm Date: &nbsp;&nbsp;&nbsp;
+                      <input class="intop" type="date" name="sdate">
+                    </label>
+                  </div>
+                <div class="storm">
+                    <label class="top">Storm Type: &nbsp;&nbsp;&nbsp;</label>
+                        <datalist id="stormtlist">
+                            <option value="">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado"> 
+                        </datalist>
+		                        <label class="intop">
+			                        <select class="intop" name="stype" id="selecttype" onchange="selectResponset()">
+				                        <option value="" disabled selected>Select a Storm Type ...</option>
+				                        <option value="Flash Flood">Flash Flood</option>
+                                <option value="Hail">Hail</option>
+                                <option value="Hurricane">Hurricane</option>
+                                <option value="Thunderstorm">Thunderstorm</option>
+                                <option value="Hurricane">Tornado</option>
+			                        </select>
+                            </label>
+                </div>
+                <div class="storm" >
+                    <label id="ssevere" class="top">Storm Severity: &nbsp;&nbsp;&nbsp;
+                      <input name="ssevere" class="intop" type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                          <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist>
+                    </label>    
+                </div>
+                <div class="storm">
+                    <label class="top">Storm Region: &nbsp;&nbsp;&nbsp;</label>
+                        <datalist id="regionlist">
+                          <option value="">
+                          <option value="Fish Haven">
+                          <option value="Preston">
+                          <option value="Soda Springs">
+                        </datalist>
+		                      <label class="intop">
+			                      <select class="intop" name="sregion" id="selectregion" onchange="selectResponser()">
+				                      <option value="" disabled selected>Select a Region ...</option>
+				                      <option value="Fish Haven">Fish Haven</option>
+                              <option value="Preston">Preston</option>
+                              <option value="Soda Springs">Soda Springs</option>
+			                      </select>
+                          </label>        
+                </div>
+                <div class="stormr">
+                    <h4 class="stormr">Are you in danger?</h4>
+                    <label class="stormr">
+                        <input type="radio" name="danger" value="Yes"> Yes</label>
+                    <label class="stormr">
+                        <input type="radio" name="danger" value="No"> No</label>
+                    <label class="stormr">
+                        <input type="radio" name="danger" value="Maybe"> Maybe</label>
+                </div>
+            </fieldset>
+            <fieldset>
+              <legend>Additional Information</legend>
+                <div class="more">
+                  <label class="top">Observations: &nbsp;&nbsp;&nbsp;
+                    <textarea class="intop" id="observe" name="sobservation" rows="6" cols="50">Type observations here.
+                    </textarea>
+                  </label>  
+                </div>
+            </fieldset>
+          <input name="sendbutton" type="submit" value="Send Report" id="submitbtn">
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; snow fun site | Attributions | Chris Johnson<br></p>
+        <p><span id="currdate"></span></p>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html> 
