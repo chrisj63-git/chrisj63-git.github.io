@@ -18,12 +18,12 @@ let h4 = document.createElement('h4');
 let p = document.createElement('p');
 let image = document.createElement('img');
 
-h2.innerHTML = `Business Name: ${members.name}`;
-h3.innerHTML = `Contact: ${members.contact}`;
-h4.innerHTML = `Phone: ${members.phone}`;
-p.innerHTML = `E-mail: ${prophet.email}`;
-image.setAttribute('src', prophet.logo);
-image.setAttribute('alt', h2.textContent + ` - ${members.order}`);
+h2.innerHTML = `Business Name: ${member.name}`;
+h3.innerHTML = `Contact: ${member.contact}`;
+h4.innerHTML = `Phone: ${member.phone}`;
+p.innerHTML = `E-mail: ${member.email}`;
+image.setAttribute('src', member.logo);
+image.setAttribute('alt', h2.textContent + ` - ${member.order}`);
 
 card.append(h2);
 cards.append(card);
