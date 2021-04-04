@@ -1,4 +1,4 @@
-const requestURL = 'jsonfiles/chamber-members.json';
+const requestURL = 'https://chrisj63-git.github.io/coc/jsonfiles/chamber-members.json';
 
 fetch(requestURL)
   .then(function (response) {
