@@ -6,7 +6,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['members'];
+    const members = jsonObject['members'];
     const cards = document.querySelector('.cards');
 
     members.forEach(member => {

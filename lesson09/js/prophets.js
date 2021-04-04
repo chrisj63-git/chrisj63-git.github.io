@@ -11,8 +11,6 @@ fetch(requestURL)
 
     prophets.forEach(prophet => {
       
-     
- 
 let card = document.createElement('section');
 let h2 = document.createElement('h2');
 let h3 = document.createElement('h3');
