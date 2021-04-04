@@ -5,8 +5,8 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const members = jsonObject['members'];
+    //console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const members = jsonObject['chamber-members'];
     const cards = document.querySelector('.cards');
 
     members.forEach(member => {
