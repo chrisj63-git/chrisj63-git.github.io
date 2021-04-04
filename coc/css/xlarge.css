@@ -1,0 +1,14 @@
+@media only screen and (min-width: 65em) {
+
+
+
+    nav ul li a {
+     font-size: 1.8rem;
+    }
+
+    .footertext {
+        font-size: 2.5rem;
+        width: 900px;
+}
+
+}
