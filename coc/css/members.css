@@ -33,14 +33,14 @@
         color: black;
         padding: 1.5rem;
         justify-content: center;
-        margin-left: auto;
+        margin-left: 4rem;
         margin-right: auto;
         margin-bottom: 0;
     }
 
     .membercards h2 {
       display: flex;
-      color: red;
+      color: maroon;
       font-size: 1.8rem;
       justify-content: center;
       margin-left: auto;
@@ -50,7 +50,7 @@
 
     .membercards h3 {
       display: flex;
-      color: red;
+      color: maroon;
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
@@ -61,7 +61,7 @@
 
     .membercards h4 {
         display: flex;
-        color: red;
+        color: maroon;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -72,7 +72,7 @@
     
     .membercards p {
         display: flex;
-        color: red;
+        color: maroon;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -94,6 +94,7 @@
       margin-bottom: 1rem;
       padding: 0 .5rem 1.5rem .5rem;
       border: 1px solid darkblue;
+      border-radius: 25px;
       box-shadow: 0 0 .75rem #444;
       width: 260px;
     }
