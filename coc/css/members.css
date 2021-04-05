@@ -1,8 +1,7 @@
 
     
     .membercards html {
-      font-size: 62.5%;
-      background-color: black;
+      background-color: #a6cae4;
     }
 
     .membercards main {
@@ -13,8 +12,8 @@
       margin-right: auto;
       margin-bottom: 1rem;
       padding: 1rem;
-      background-color: lightyellow;
-      box-shadow: 0 0 3rem #ccc;
+      background-color: #cabcaf;
+      box-shadow: 0 0 3rem #ddd;
     }
 
     .membercards img {
