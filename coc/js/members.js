@@ -18,10 +18,10 @@ let h4 = document.createElement('h4');
 let p = document.createElement('p');
 let image = document.createElement('img');
 
-h2.innerHTML = `Business Name: ${member.name}`;
-h3.innerHTML = `Contact: ${member.contact}`;
-h4.innerHTML = `Phone: ${member.phone}`;
-p.innerHTML = `E-mail: ${member.email}`;
+h2.innerHTML = `${member.name}`;
+h3.innerHTML = `${member.contact}`;
+h4.innerHTML = `${member.phone}`;
+p.innerHTML = `${member.email}`;
 image.setAttribute('src', member.logo);
 image.setAttribute('alt', h2.textContent + ` - ${member.order}`);
 
