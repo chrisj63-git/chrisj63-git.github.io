@@ -45,6 +45,8 @@ nav {
     max-width: 760px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 nav ul {
     list-style-type: none;
