@@ -30,7 +30,7 @@
         display: flex;
         font-size: 3em;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: purple;
+        color: black;
         padding: 1.5rem;
         justify-content: center;
         margin-left: auto;
@@ -40,7 +40,7 @@
 
     .membercards h2 {
       display: flex;
-      color: purple;
+      color: red;
       font-size: 1.8rem;
       justify-content: center;
       margin-left: auto;
@@ -50,7 +50,7 @@
 
     .membercards h3 {
       display: flex;
-      color: #333;
+      color: red;
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
@@ -61,7 +61,7 @@
 
     .membercards h4 {
         display: flex;
-        color: #333;
+        color: red;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -72,7 +72,7 @@
     
     .membercards p {
         display: flex;
-        color: #333;
+        color: red;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -87,7 +87,7 @@
     }
 
     .cards section {
-      background-color: rgb(247, 160, 80);
+      background-color: rgb(255, 188, 4);
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
