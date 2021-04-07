@@ -1,5 +1,5 @@
   WebFont.load({
     google: {
-      families: ['Lato', 'Aleo']
+      families: ['Allan', 'Bree', 'Chonburi', 'Ubuntu']
     }
   });
