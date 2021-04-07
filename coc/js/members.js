@@ -27,10 +27,8 @@ let currmail = "<a href='mailto:" +`${member.email}` + "'>" +`${member.email}` +
 h2.innerHTML = `${member.name}`;
 h3.innerHTML = `${member.contact}`;
 h4.innerHTML = `${member.phone}`;
-/*h5.innerHTML = `${member.email}`;
-href.innerHTML = `${member.website}`; */
-a.innerHTML = currhtml;
 h5.innerHTML = currmail;
+a.innerHTML = currhtml;
 
 image.setAttribute('src', member.logo);
 image.setAttribute('alt', h2.textContent + ` - ${member.order}`);
