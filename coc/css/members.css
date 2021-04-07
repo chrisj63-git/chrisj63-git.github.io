@@ -67,7 +67,7 @@
         margin-top: 0;
       }
 
-      .membercards h5 {
+      .membercards h5 a {
         display: flex;
         color: maroon;
         justify-content: center;
@@ -75,7 +75,7 @@
         margin-right: auto;
         font-size: 1.75rem;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin-bottom: 0;
+        margin-bottom: 1rem;
         margin-top: 0;
       }  
     
@@ -85,10 +85,32 @@
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 0;
-        font-size: 1rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
+
+    .membercards a {
+      display: flex;
+      color: maroon;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .membercards href {
+    display: flex;
+    color: maroon;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
     .cards {
         display: grid;
