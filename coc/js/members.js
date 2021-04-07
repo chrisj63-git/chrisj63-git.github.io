@@ -17,11 +17,9 @@ let h3 = document.createElement('h3');``
 let h4 = document.createElement('h4');
 let h5 = document.createElement('h5');
 let a = document.createElement('a');
-let href = document.createElement('href');
 let image = document.createElement('img');
-let currhtml = "<a href=" +`${member.website}` + ">" +`${member.website}` + "</a>";
+let currhtml = "<a href=" +`${member.website}` + " target='_blank'>" +`${member.website}` + "</a>";
 let currmail = "<a href='mailto:" +`${member.email}` + "'>" +`${member.email}` + "</a>";
-
 
 
 h2.innerHTML = `${member.name}`;
@@ -34,14 +32,13 @@ image.setAttribute('src', member.logo);
 image.setAttribute('alt', h2.textContent + ` - ${member.order}`);
 
 
-card.append(h2);
-cards.append(card);
-card.append(h3);
-card.append(h4);
-card.append(h5);
-card.append(image);
-card.append(a);
-
+        card.append(h2);
+        cards.append(card);
+        card.append(h3);
+        card.append(h4);
+        card.append(h5);
+        card.append(image);
+        card.append(a);
     
     });
 
