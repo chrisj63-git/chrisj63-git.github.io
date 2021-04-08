@@ -47,6 +47,7 @@ nav {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: 'ubuntu', Verdana, Tahoma, sans-serif;
 }
 nav ul {
     list-style-type: none;
@@ -60,7 +61,7 @@ nav ul li a {
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
-    font-size: 1rem
+    font-size: 1.2rem
 }
 nav a:hover {
     background-color: #bbb;
