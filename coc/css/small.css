@@ -231,3 +231,11 @@ iframe {
     margin: .75rem 3rem;
     display: block;
 }
+
+.intop:required {
+    border-left: #6B0F1A solid 6px;
+}
+
+.intop:required:valid {
+    border-left: green solid 6px;
+}
