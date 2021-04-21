@@ -11,13 +11,13 @@ ice = input('What is your favorite flavor of ice cream?')
 
 print()
 print('Hi ' + name + 'Nice to meet you. Your favorite color is ' + fcolor + 'and')
-print('your favorite ice cream flavor is: ' + ice + '.)
+print('your favorite ice cream flavor is: ' + ice + '.')
 print('My name is Chris. My favorite color is green and my favorite ice cream flavor is "Moose Tracks".')
 print()
 
 """
 Making it my own:
 
-Adding favorite cartoon character.
+Adding favorite flavor of ice cream.
 
 """
