@@ -14,11 +14,11 @@ jtitle = input('Job title: ')
 id = input('ID Number: ')
 
 print(dash)
-print(f"{lname}, {fname}\n")
-print(f"{jtitle}\n")
-print(f"{id}\n\n")
-print(f"{email}\n")
-print(f"{phone}\n")
+print(f"{lname}, {fname}")
+print(f"{jtitle}")
+print(f"{id}\n")
+print(f"{email}")
+print(f"{phone}")
 print(dash)
 
 """
