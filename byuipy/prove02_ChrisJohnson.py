@@ -19,7 +19,7 @@ print(f"{jtitle}")
 print(f"{id}\n")
 print(f"{email}")
 print(f"{phone}")
-print(dash)
+print(f"{dash}\n")
 
 """
 Making it my own:
