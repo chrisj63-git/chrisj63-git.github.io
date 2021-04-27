@@ -13,6 +13,7 @@ phone = input('Phone number: ')
 jtitle = input('Job title: ')
 id = input('ID Number: ')
 
+print("The ID Card is:")
 print(f"\n{dash}")
 print(f"{lname.upper()}, {fname}")
 print(f"{jtitle}")
