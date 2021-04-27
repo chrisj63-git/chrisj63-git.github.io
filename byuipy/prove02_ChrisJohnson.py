@@ -3,7 +3,7 @@ File: prep_02_ChrisJohnson.py
 Author: Chris Johnson
 
 """
-dash-line = "----------------------------------------"
+var dash-line = "----------------------------------------"
 print("Please enter the following information:\n")
 fname = input('First Name: ')
 lname = input('Last Name: ')
