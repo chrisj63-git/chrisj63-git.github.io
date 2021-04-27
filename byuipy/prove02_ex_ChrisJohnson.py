@@ -23,10 +23,10 @@ print(f"{lname.upper()}, {fname.capitalize()}")
 print(f"{jtitle.title()}")
 print(f"ID: {id}\n")
 print(f"{email.lower()}")
-print(f"{phone}")
-print(f"{dash}\n")
+print(f"{phone}\n")
 print(f"Hair: {chair.capitalize():15} Eyes: {ceye.capitalize()}")
 print(f"Month: {smonth.capitalize():14} Training: {atrain.capitalize()}")
+print(f"{dash}\n")
 
 """
 Making it my own:
