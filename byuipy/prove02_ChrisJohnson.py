@@ -14,6 +14,7 @@ jtitle = input('Job title: ')
 id = input('ID Number: ')
 
 print(dash)
+print(f"{lname}, {fname}\n")
 print(f"{jtitle}\n")
 print(f"{id}\n\n")
 print(f"{email}\n")
