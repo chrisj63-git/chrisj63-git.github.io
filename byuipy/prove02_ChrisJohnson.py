@@ -13,7 +13,7 @@ phone = input('Phone number: ')
 jtitle = input('Job title: ')
 id = input('ID Number: ')
 
-print(f"\n"dash)
+print(f"\n"{dash})
 print(f"{lname.upper()}, {fname}")
 print(f"{jtitle}")
 print(f"{id}\n")
