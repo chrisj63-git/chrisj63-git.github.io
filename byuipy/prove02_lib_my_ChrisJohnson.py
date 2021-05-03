@@ -31,6 +31,6 @@ print(f'We {verb4}, and all had a good laugh. Then we went home and had some {de
 """
 Making it my own:
 
-
+I added a second paragraph with an additional animal, past tense verb, and a dessert to fill in the blanks.
 
 """
